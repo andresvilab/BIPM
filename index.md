@@ -262,7 +262,7 @@ title: BIPM
 
         <div class="hobby">
           <div class="photo">
-            <img src="hobby-photography.jpg" alt="Film photography" onerror="this.remove()">
+            <img src="hobby-photography.jpeg" alt="Film photography" onerror="this.remove()">
             <span class="icon">📷</span>
           </div>
           <div class="label">Film Photography</div>
@@ -270,7 +270,7 @@ title: BIPM
 
         <div class="hobby">
           <div class="photo">
-            <img src="hobby-skating.jpg" alt="Rollerskating" onerror="this.remove()">
+            <img src="hobby-skating.jpeg" alt="Rollerskating" onerror="this.remove()">
             <span class="icon">🛼</span>
           </div>
           <div class="label">Rollerskating</div>
@@ -278,34 +278,10 @@ title: BIPM
 
         <div class="hobby">
           <div class="photo">
-            <img src="hobby-cooking.jpg" alt="Cooking" onerror="this.remove()">
+            <img src="hobby-cooking.jpeg" alt="Cooking" onerror="this.remove()">
             <span class="icon">🍳</span>
           </div>
           <div class="label">Cooking</div>
-        </div>
-
-        <div class="hobby">
-          <div class="photo">
-            <img src="hobby-reading.jpg" alt="Reading" onerror="this.remove()">
-            <span class="icon">📚</span>
-          </div>
-          <div class="label">Reading</div>
-        </div>
-
-        <div class="hobby">
-          <div class="photo">
-            <img src="hobby-music.jpg" alt="Music and opera" onerror="this.remove()">
-            <span class="icon">🎶</span>
-          </div>
-          <div class="label">Music &amp; Opera</div>
-        </div>
-
-        <div class="hobby">
-          <div class="photo">
-            <img src="hobby-cycling.jpg" alt="Cycling" onerror="this.remove()">
-            <span class="icon">🚲</span>
-          </div>
-          <div class="label">Cycling</div>
         </div>
 
       </div>
