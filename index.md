@@ -125,20 +125,55 @@
       margin-bottom: 4px;
     }
 
-    /* Skills */
-    .skills { display: grid; grid-template-columns: 1fr 1fr; gap: 20px 40px; }
-    .skill-top {
-      display: flex;
-      justify-content: space-between;
-      font-family: 'Poppins', sans-serif;
-      font-size: 0.8rem;
-      font-weight: 600;
-      text-transform: uppercase;
-      margin-bottom: 6px;
-    }
-    .skill-top span { color: var(--muted); font-weight: 500; }
-    .bar { height: 4px; background: #eeeeee; border-radius: 2px; }
-    .fill { height: 100%; background: var(--accent); border-radius: 2px; }
+    /* Hobbies */
+    .hobbies {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 22px;
+  }
+  .hobby {
+    background: white;
+    border: 1px solid #ececf4;
+    border-radius: 14px;
+    padding: 10px 10px 14px;
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  .hobby:nth-child(odd):hover  { transform: rotate(-2deg) translateY(-4px); }
+  .hobby:nth-child(even):hover { transform: rotate(2deg) translateY(-4px); }
+  .hobby:hover { box-shadow: 0 8px 20px rgba(92, 107, 240, 0.12); }
+
+  .hobby .photo {
+    position: relative;
+    aspect-ratio: 1 / 1;
+    border-radius: 10px;
+    background: #f1eef8;
+  }
+  .hobby .photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    display: block;
+  }
+  .hobby .icon {
+    position: absolute;
+    left: 12px;
+    bottom: -18px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: white;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+  }
+  .hobby .label {
+    margin: 26px 0 0 12px;
+    font-weight: 600;
+    font-size: 0.95rem;
+  }
 
     footer { text-align: center; color: var(--muted); font-size: 0.8rem; }
 
@@ -147,6 +182,7 @@
       .about, .stop { flex-direction: column; }
       .stop img { width: 100%; height: 180px; }
       .info, .skills { grid-template-columns: 1fr; }
+      .hobbies { grid-template-columns: 1fr 1fr; gap: 14px; }
     }
   </style>
 </head>
@@ -216,26 +252,59 @@
       </div>
     </section>
 
-    <!-- SKILLS -->
+    <!-- HOBBIES -->
     <section class="card">
-      <h2>My Skills</h2>
-      <div class="skills">
-        <div>
-          <div class="skill-top">Python <span>90%</span></div>
-          <div class="bar"><div class="fill" style="width:90%"></div></div>
+      <h2>My Hobbies</h2>
+      <div class="hobbies">
+
+        <div class="hobby">
+          <div class="photo">
+            <img src="hobby-photography.jpg" alt="Film photography" onerror="this.remove()">
+            <span class="icon">📷</span>
+          </div>
+          <div class="label">Film Photography</div>
         </div>
-        <div>
-          <div class="skill-top">LLMs &amp; NLP <span>85%</span></div>
-          <div class="bar"><div class="fill" style="width:85%"></div></div>
+
+        <div class="hobby">
+          <div class="photo">
+            <img src="hobby-skating.jpg" alt="Rollerskating" onerror="this.remove()">
+            <span class="icon">🛼</span>
+          </div>
+          <div class="label">Rollerskating</div>
         </div>
-        <div>
-          <div class="skill-top">SQL &amp; Databases <span>80%</span></div>
-          <div class="bar"><div class="fill" style="width:80%"></div></div>
+
+        <div class="hobby">
+          <div class="photo">
+            <img src="hobby-cooking.jpg" alt="Cooking" onerror="this.remove()">
+            <span class="icon">🍳</span>
+          </div>
+          <div class="label">Cooking</div>
         </div>
-        <div>
-          <div class="skill-top">German <span>40%</span></div>
-          <div class="bar"><div class="fill" style="width:40%"></div></div>
+
+        <div class="hobby">
+          <div class="photo">
+            <img src="hobby-reading.jpg" alt="Reading" onerror="this.remove()">
+            <span class="icon">📚</span>
+          </div>
+          <div class="label">Reading</div>
         </div>
+
+        <div class="hobby">
+          <div class="photo">
+            <img src="hobby-music.jpg" alt="Music and opera" onerror="this.remove()">
+            <span class="icon">🎶</span>
+          </div>
+          <div class="label">Music &amp; Opera</div>
+        </div>
+
+        <div class="hobby">
+          <div class="photo">
+            <img src="hobby-cycling.jpg" alt="Cycling" onerror="this.remove()">
+            <span class="icon">🚲</span>
+          </div>
+          <div class="label">Cycling</div>
+        </div>
+
       </div>
     </section>
 
