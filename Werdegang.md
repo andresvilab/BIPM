@@ -44,4 +44,4 @@ www.linkedin.com/in/andresvilaborrego
 | 2006–11  | Manhattan, NY         | Startup (Machine Learning)      |
 | 2011–Now | Berlin, Germany       | Professor, Berlin University    |
 
-<iframe src="academic_journey_map.html" width="800" height="600" style="border:none;"></iframe>
+ <iframe src="academic_journey_map.html" width="100%" height="450" style="border:none;"></iframe>
