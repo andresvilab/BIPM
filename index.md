@@ -1,18 +1,25 @@
 <style>
- body {background: #f4f5fc; }
-
- .card {
-  border-bottom: none;
-  padding-bottom: 10px;
-  position: relative;
- }
- .card h2::after {
-  content: "";
-  position: absolute;
-  left: 0; bottom: 0;
-  width: 28px; height: 3px;
-  background: #ef5350;
- }
+ /* ---- About Me layout ---- */
+  .about {
+    display: flex;
+    gap: 40px;
+    align-items: flex-start;
+  }
+  .avatar {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    object-fit: cover;
+    flex-shrink: 0;
+  }
+  .hello {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 8px;
+  }
+  .intro {
+    color: #777;
+  }
 </style>
 
 Andrés Vila's path
