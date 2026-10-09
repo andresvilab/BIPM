@@ -160,22 +160,10 @@
         <img class="avatar" src="andresvila_profilepicture.jpg" alt="Photo of Andrés">
         <div>
           <div class="hello">Hi!, I'm Andrés</div>
-          <p>Borned and raised in a small mediterranean town in Spain decided to pursue my Data Science studies in Valencia.  .</p>
-          <div class="info">
-            <div><span>Name:</span> <b>Andrés</b></div>
-            <div><span>Location:</span> <b>Berlin, Germany</b></div>
-            <div><span>From:</span> <b>Benicàssim, Spain</b></div>
-            <div><span>Studying:</span> <b>BIPM @ HWR Berlin</b></div>
-          </div>
+          <p>Born and raised in a small coastal town on the Mediterranean, I decided to pursue my Data Science studies in Valencia. Now, driven by the impact of what data can do, I am doing my master’s in Business Intelligence and Process Management.</p>
           <a class="btn blue" href="https://www.linkedin.com/in/YOUR-PROFILE" target="_blank">LinkedIn</a>
         </div>
       </div>
-    </section>
-
-    <!-- MAP -->
-    <section class="card">
-      <h2>My Journey</h2>
-      <iframe class="map-frame" src="academic_journey_map.html" title="Map of my journey"></iframe>
     </section>
 
     <!-- STORY -->
@@ -250,6 +238,14 @@
         </div>
       </div>
     </section>
+
+    
+    <!-- MAP -->
+    <section class="card">
+      <h2>My Journey</h2>
+      <iframe class="map-frame" src="academic_journey_map.html" title="Map of my journey"></iframe>
+    </section>
+
 
     <footer>© 2026 Andrés · Made for BIPM Data Science at HWR Berlin</footer>
   </div>
