@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -184,7 +184,7 @@
         <div>
           <span class="tag">🎓 Valencia, Spain</span>
           <h3>B.Sc. Data Science, European University of Valencia</h3>
-          <p>Write a few lines about your degree and what got you into data.</p>
+          <p>Moved to the city to study Data Science and discovered how much you can learn about the world from data.</p>
         </div>
       </div>
 
@@ -193,7 +193,7 @@
         <div>
           <span class="tag">💼 Regensburg, Germany</span>
           <h3>Erasmus+ Exchange</h3>
-          <p>Moved to the city to study Data Science and discovered how much you can learn about the world from data.</p>
+          <p> Fell in love with international environments, and I guess with Germany too. Ich liebe Lüften und Apfelschorle!🍏</p>
         </div>
       </div>
 
