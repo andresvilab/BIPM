@@ -157,17 +157,16 @@
     <section class="card">
       <h2>About Me</h2>
       <div class="about">
-        <img class="avatar" src="profile.jpg" alt="Photo of Andrés">
+        <img class="avatar" src="andresvila_profilepicture.jpg" alt="Photo of Andrés">
         <div>
-          <div class="hello">Hello,</div>
-          <p>I'm Andrés, a Product Engineer at Datamaran and a BIPM student at HWR Berlin. I work with data, LLMs and backend systems in the ESG space.</p>
+          <div class="hello">Hi!, I'm Andrés</div>
+          <p>Borned and raised in a small mediterranean town in Spain decided to pursue my Data Science studies in Valencia.  .</p>
           <div class="info">
             <div><span>Name:</span> <b>Andrés</b></div>
             <div><span>Location:</span> <b>Berlin, Germany</b></div>
             <div><span>From:</span> <b>Benicàssim, Spain</b></div>
             <div><span>Studying:</span> <b>BIPM @ HWR Berlin</b></div>
           </div>
-          <a class="btn red" href="https://github.com/YOUR-USERNAME" target="_blank">GitHub</a>
           <a class="btn blue" href="https://www.linkedin.com/in/YOUR-PROFILE" target="_blank">LinkedIn</a>
         </div>
       </div>
@@ -188,7 +187,7 @@
         <div>
           <span class="tag">🌊 Benicàssim, Spain</span>
           <h3>Born and raised</h3>
-          <p>Write a few lines about growing up here.</p>
+          <p>Grew up by the Mediterranean, where the sea was never more than a few minutes away. I guess I am already missing it...</p>
         </div>
       </div>
 
@@ -206,7 +205,7 @@
         <div>
           <span class="tag">💼 Regensburg, Germany</span>
           <h3>Erasmus+ Exchange</h3>
-          <p>Write a few lines about your Erasmus and your first time in Germany.</p>
+          <p>Moved to the city to study Data Science and discovered how much you can learn about the world from data.</p>
         </div>
       </div>
 
@@ -214,8 +213,8 @@
         <img src="datamaran.jpg" alt="Datamaran">
         <div>
           <span class="tag">🤖 Valencia, Spain</span>
-          <h3>Product Engineer at Datamaran (ESG Company)</h3>
-          <p>Write a few lines about your work: LLMs, backend, ESG data.</p>
+          <h3>Product Engineer at an sustainability company</h3>
+          <p>Product Engineer at a sustainability company: First proper software development experience..</p>
         </div>
       </div>
 
@@ -224,7 +223,7 @@
         <div>
           <span class="tag">🏫 Berlin, Germany</span>
           <h3>BIPM at HWR Berlin</h3>
-          <p>Write a few lines about why you chose BIPM and what you hope to get from it.</p>
+          <p>Drawn by the impact of data and technology, now studying the BIPM Master.</p>
         </div>
       </div>
     </section>
