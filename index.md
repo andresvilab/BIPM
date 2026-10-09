@@ -1,3 +1,6 @@
+---
+title: BIPM
+---
 
 <html lang="en">
 <head>
@@ -195,7 +198,7 @@
       <div class="about">
         <img class="avatar" src="andresvila_profilepicture.jpg" alt="Photo of Andrés">
         <div>
-          <div class="hello">Hi!, I'm Andrés</div>
+          <div class="hello">👋 Hi, I'm Andrés!</div>
           <p>Born and raised in a small coastal town on the Mediterranean, I decided to pursue my Data Science studies in Valencia. Now, driven by the impact of what data can do, I am doing my master’s in Business Intelligence and Process Management.</p>
           <a class="btn blue" href="https://www.linkedin.com/in/YOUR-PROFILE" target="_blank">LinkedIn</a>
         </div>
@@ -237,8 +240,8 @@
         <img src="datamaran.jpeg" alt="Datamaran">
         <div>
           <span class="tag">🤖 Valencia, Spain</span>
-          <h3>Product Engineer at an sustainability company</h3>
-          <p>Product Engineer at a sustainability company: First proper software development experience..</p>
+          <h3>Product Engineer at an ESG Company</h3>
+          <p>Favourite working set up, early mornings and a cute dachshund mug!</p>
         </div>
       </div>
 
