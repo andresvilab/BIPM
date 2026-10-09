@@ -171,7 +171,7 @@
       <h2>My Story</h2>
 
       <div class="stop">
-        <img src="benicassim.jpg" alt="Benicàssim">
+        <img src="benicasim.jpeg" alt="Benicàssim">
         <div>
           <span class="tag">🌊 Benicàssim, Spain</span>
           <h3>Born and raised</h3>
@@ -180,7 +180,7 @@
       </div>
 
       <div class="stop">
-        <img src="valencia.jpg" alt="Valencia">
+        <img src="valencia.jpeg" alt="Valencia">
         <div>
           <span class="tag">🎓 Valencia, Spain</span>
           <h3>B.Sc. Data Science, European University of Valencia</h3>
@@ -189,7 +189,7 @@
       </div>
 
       <div class="stop">
-        <img src="regensburg.jpg" alt="Regensburg">
+        <img src="regensburg.jpeg" alt="Regensburg">
         <div>
           <span class="tag">💼 Regensburg, Germany</span>
           <h3>Erasmus+ Exchange</h3>
@@ -198,7 +198,7 @@
       </div>
 
       <div class="stop">
-        <img src="datamaran.jpg" alt="Datamaran">
+        <img src="datamaran.jpeg" alt="Datamaran">
         <div>
           <span class="tag">🤖 Valencia, Spain</span>
           <h3>Product Engineer at an sustainability company</h3>
@@ -207,7 +207,7 @@
       </div>
 
       <div class="stop">
-        <img src="berlin.jpg" alt="Berlin">
+        <img src="berlin.jpeg" alt="Berlin">
         <div>
           <span class="tag">🏫 Berlin, Germany</span>
           <h3>BIPM at HWR Berlin</h3>
